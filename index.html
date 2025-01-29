@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+  <div class="glass-container">
+    <div class="login-box">
+      <!-- Main login form -->
+      <div id="main">
+        <h1>Sign In</h1>
+        <input id="email" type="text" placeholder="Email" required>
+        <input id="password" type="password" placeholder="Password" required>
+        <button id="submit">Log in</button>
+        <p><span>or</span></p>
+        <button id="sign-up">Sign Up</button>
+      </div>
+      
+      <div id="create-acct">
+        <h1>Create an Account</h1>
+        <div>
+          <input id="username-signup" type="text" placeholder="Name" required>
+          <input id="email-signup" type="email" placeholder="Email" required>
+          <input id="password-signup" type="password" placeholder="Password" required>
+          <input id="date-signup" type="date" required>
+          <button id="create-acct-btn">Create Account</button>
+          <button id="return-btn">Return to Login</button>
+        </div>
+      </div>
+      
+
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+  <script type="module" src="/Modules/script.js"></script>
+
+</body>
+</html>

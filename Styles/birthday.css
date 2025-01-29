@@ -15,7 +15,7 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  background-image: url('/material/background-image.jpeg');
+  background-image: url('../material/background-image.jpeg');
   background-size: cover;
 }
 
